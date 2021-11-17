@@ -15,3 +15,7 @@ footer p a {
 footer p a:hover {
     text-decoration: none;
 }
+
+#phone-img {
+    width: 50%;
+}
