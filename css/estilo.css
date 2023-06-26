@@ -19,3 +19,33 @@ footer p a:hover {
 #phone-img {
     width: 50%;
 }
+
+.emailWidth {
+    min-width: 15em;
+    width: 90%;
+    max-width: 30em;
+}
+
+.title {
+    font-size: 56px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 46px;
+    }
+
+    .column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
